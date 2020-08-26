@@ -29,11 +29,11 @@ namespace CSharp01
             gTotales = gRegulares + gExtras;
 
             Console.WriteLine($"Number of Hours Regulars: {hrsRegulares}");
-            Console.WriteLine("Number of Hours Extras: "+ hrsExtras);
+            Console.WriteLine($"Number of Hours Extras: {hrsExtras}");
 
-            Console.WriteLine("Profits Brutas Regulars: "+ gRegulares);
-            Console.WriteLine("Profits Brutas Extras: "+ gExtras);
-            Console.WriteLine("Profits Totales: "+ gTotales);
+            Console.WriteLine($"Profits Brutas Regulars: {gRegulares}");
+            Console.WriteLine($"Profits Brutas Extras: {gExtras}");
+            Console.WriteLine($"Profits Totales: {gTotales}");
 
             Console.ReadLine();
         }
